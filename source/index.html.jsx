@@ -1,9 +1,9 @@
-import About from './pages/about.html.mdx';
+import Layout from './layout.html.jsx';
 import Header from './components/header.jsx';
 
 export default () => {
   return (
-    <>
+    <Layout>
       <Header/>
 
       { /* Content
@@ -21,7 +21,6 @@ export default () => {
 
       { /* Features Cities / End */ }
 
-      <h1>Welcome to my new Charge site!</h1>
-    </>
+    </Layout>
   );
 };
