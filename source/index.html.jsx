@@ -1,12 +1,10 @@
 import About from './pages/about.html.mdx';
 import Header from './components/header.jsx';
-import Banner from './components/banner.jsx';
 
 export default () => {
   return (
     <>
       <Header/>
-      <Banner/>
 
       { /* Content
       ================================================== */ }
