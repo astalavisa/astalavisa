@@ -3,7 +3,7 @@
 
 export default function Layout({ children }) {
   return (
-    <html>
+    <>
       <head>
         <title>VISA with professional Registered Migration Agents</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
@@ -17,6 +17,6 @@ export default function Layout({ children }) {
 
         
       </body>
-    </html>
+    </>
   );
 }
