@@ -4,7 +4,6 @@ import Category from './components/category.jsx';
 import Countries from './components/countries.jsx';
 import Employees from './components/employees.jsx';
 import Plans from './components/plans.jsx';
-// import ContactMap
 import Footer from './components/footer.jsx';
 
 export default () => {
