@@ -6,8 +6,6 @@ export default () => {
     <Layout>
       <Header/>
 
-      { /* Content
-      ================================================== */ }
       { /* Category Boxes || visa type */ }
 
       { /* Category Boxes / End */ }
