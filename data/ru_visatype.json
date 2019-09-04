@@ -1,0 +1,10 @@
+{
+	"title": "Выбрать по типу визы",
+	"items": [
+		{"icon": "icon-line-awesome-image", "title": "Туристическая", "desc": "На срок до 6 месяцев"},
+		{"icon": "icon-feather-pie-chart", "title": "Бизнес", "desc": "Для поездки на переговоры/выставку"},
+		{"icon": "icon-line-awesome-graduation-cap", "title": "Учебная", "desc": "От 6 до 48 месяцев с возможностью подработки"},
+		{"icon": "icon-line-awesome-suitcase", "title": "Рабочая", "desc": "На 1-3 года с возможностью продления"},
+		{"icon": "icon-line-awesome-legal", "title": "Иммиграция", "desc": "Получение гражданства"}
+	]
+}

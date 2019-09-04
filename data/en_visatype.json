@@ -1,0 +1,10 @@
+{
+	"title": "Choose by visa type",
+	"items": [
+		{"icon": "icon-line-awesome-image", "title": "Tourist", "desc": "For up to 6 months"},
+		{"icon": "icon-feather-pie-chart", "title": "Business", "desc": "For travel to negotiations/exhibition"},
+		{"icon": "icon-line-awesome-graduation-cap", "title": "Study", "desc": "From 6 to 48 months with the possibility of part-time work"},
+		{"icon": "icon-line-awesome-suitcase", "title": "Work", "desc": "1-3 years renewable"},
+		{"icon": "icon-line-awesome-legal", "title": "Immigration", "desc": "Citizenship"}
+	]
+}

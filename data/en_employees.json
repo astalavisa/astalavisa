@@ -1,0 +1,41 @@
+{
+    "title": "Employees",
+    "items": [
+        {
+            "name": "Sergey Safronov",
+            "job": "CEO",
+            "location": ["Location", "Tashkent"],
+            "rate": ["Rate", "$200/hour"],
+            "spec": ["Specialization", "Immigration law"],
+            "url": ["Make an appointment", "#"],
+            "photo": "images/ss.png"
+        },
+        {
+            "name": "Polina",
+            "job": "Visa Department",
+            "location": ["Location", "Saint-Petersburg"],
+            "rate": ["Rate", "$50/hour"],
+            "spec": ["Specialization", "Australia, Canada"],
+            "url": ["Make an appointment", "#"],
+            "photo": "images/polina.jpg"
+        },
+        {
+            "name": "Anastasia",
+            "job": "Visa Department",
+            "location": ["Location", "Saint-Petersburg"],
+            "rate": ["Rate", "Free"],
+            "spec": ["Specialization", "Shengen, USA"],
+            "url": ["Make an appointment", "#"],
+            "photo": "images/anastasia.jpg"
+        },
+        {
+            "name": "Roxy",
+            "job": "Visa Department",
+            "location": ["Location", "Tashkent"],
+            "rate": ["Rate", "Free"],
+            "spec": ["Specialization", "Australia, Canada, Shengen, USA"],
+            "url": ["Make an appointment", "#"],
+            "photo": "images/anastasia.jpg"
+        }        
+    ]
+}

@@ -1,0 +1,15 @@
+[
+	{
+		"title": "Главная",
+		"href": "/"
+	},
+	{
+		"title": "Вход для сотрудников",
+		"href": "https://askamoastalavisacom.amocrm.ru"
+	},
+
+	{
+		"title": "English",
+		"href": "/en"
+	}
+]

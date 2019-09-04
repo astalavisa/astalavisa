@@ -1,0 +1,9 @@
+{
+	"title": "Выбрать по стране",
+	"items": [
+		{"title": "Австралия", "img": "images/aus.jpg", "url": "#small-dialog"},
+		{"title": "Канада", "img": "images/ca.jpg", "url": "#small-dialog"},
+		{"title": "Европа", "img": "images/eu.jpg", "url": "#small-dialog"},
+		{"title": "США", "img": "images/usa.png", "url": "#small-dialog"}
+	]
+}

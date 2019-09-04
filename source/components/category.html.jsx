@@ -1,4 +1,4 @@
-export default () => {
+export default (props) => {
   return (
     <>
         <div className="section margin-top-65">
@@ -7,60 +7,31 @@ export default () => {
                     <div className="col-xl-12">
 
                         <div className="section-headline centered margin-bottom-15">
-                            <h3>Choose by visa type</h3>
+                            <h3>{props.visatype.title}</h3>
                         </div>
 
                         { /* Category Boxes Container */ }
                         <div className="categories-container">
 
-                            { /* Category Box */ }
-                            <a href="#small-dialog" className="popup-with-zoom-anim category-box">
-                                <div className="category-box-icon">
-                                    <i className="icon-line-awesome-suitcase"></i>
-                                </div>
-                                { /* <div className="category-box-counter">186</div> */ }
-                                <div className="category-box-content">
-                                    <h3>Work</h3>
-                                    <p>1-3 years renewable</p>
-                                </div>
-                            </a>
+                            {
+                                props.visatype.items.map((visa, index) => {
+                                    return (
+                                        <a key={index} href="#small-dialog" className="popup-with-zoom-anim category-box">
+                                            <div className="category-box-icon">
+                                                <i className={visa.icon}></i>
+                                            </div>
+                                            { /* <div className="category-box-counter">186</div> */ }
+                                            <div className="category-box-content">
+                                                <h3>{visa.title}</h3>
+                                                <p>{visa.desc}</p>
+                                            </div>
+                                        </a>
 
-                            { /* Category Box */ }
-                            <a href="#small-dialog" className="category-box">
-                                <div className="popup-with-zoom-anim category-box-icon">
-                                    <i className="icon-line-awesome-pie-chart"></i>
-                                </div>
-                                { /* <div className="category-box-counter">549</div>						 */ }
-                                <div className="category-box-content">
-                                    <h3>Business</h3>
-                                    <p>For travel to negotiations/exhibition</p>
-                                </div>
-                            </a>
-
-                            { /* Category Box */ }
-                            <a href="#small-dialog" className="popup-with-zoom-anim category-box">
-                                <div className="category-box-icon">
-                                    <i className="icon-line-awesome-image"></i>
-                                </div>
-                                { /* <div className="category-box-counter">873</div> */ }
-                                <div className="category-box-content">
-                                    <h3>Tourist</h3>
-                                    <p>For up to 6 months</p>
-                                </div>
-                            </a>
+                                    )
+                                })
+                            }
 
 
-                            { /* Category Box */ }
-                            <a href="#small-dialog" className="popup-with-zoom-anim category-box">
-                                <div className="category-box-icon">
-                                    <i className="icon-line-awesome-graduation-cap"></i>
-                                </div>
-                                { /* <div className="category-box-counter">445</div> */ }
-                                <div className="category-box-content">
-                                    <h3>Study</h3>
-                                    <p>From 6 to 48 months with the possibility of part-time work</p>
-                                </div>
-                            </a>
 
                         </div>
 

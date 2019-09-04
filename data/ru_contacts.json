@@ -1,0 +1,17 @@
+{
+	"title": "Наши офисы",
+	"items": [
+		{
+			"address": "Большая Морская улица, д. 3, Санкт-Петербург, Россия. Коворкинг LIDVAL SPACE",
+			"tel": "+7 911 195 8305",
+			"email": "spb@astalavisa.com"
+		},
+		
+		{
+			"address": "Проспект Мустакиллик д.6, Тaшкент, Узбекистан. Коворкинг GROUND ZERO (Kitob Olami)",
+			"tel": "+998 90 1675221",
+			"email": "uzb@astalavisa.com"
+		}
+	]
+}
+

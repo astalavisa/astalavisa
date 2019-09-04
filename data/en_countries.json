@@ -1,0 +1,9 @@
+{
+	"title": "Choose by country",
+	"items": [
+		{"title": "Australia", "img": "images/aus.jpg", "url": "#small-dialog"},
+		{"title": "Canada", "img": "images/ca.jpg", "url": "#small-dialog"},
+		{"title": "Europe", "img": "images/eu.jpg", "url": "#small-dialog"},
+		{"title": "USA", "img": "images/usa.png", "url": "#small-dialog"}
+	]
+}

@@ -1,4 +1,4 @@
-export default () => {
+export default (props) => {
   return (
     <>
     <div id="footer">    
@@ -12,26 +12,28 @@ export default () => {
                 <div className="row">
 
                     { /* Links */ }
-                    <div className="col-xl-2 col-lg-2 col-md-3">
+                    <div className="col-xl-3 col-lg-3 col-md-4">
                         <div className="footer-links">
-                            <h3>Helpful Links</h3>
+                            <h3>{props.bottomnav.title}</h3>
                             <ul>
-                                <li><a href="#"><span>Contact</span></a></li>
-                                <li><a href="#"><span>Privacy Policy</span></a></li>
-                                <li><a href="#"><span>Terms of Use</span></a></li>
+                                {
+                                    props.bottomnav.items.map((item, index) => {
+                                        return (<li key={index}><a href={item.href}><span>{item.title}</span></a></li>)
+                                    })
+                                }
                             </ul>
                         </div>
                     </div>
 
-            <div className="col-xl-4 col-lg-4 col-md-12">&nbsp;</div>
+            <div className="col-xl-3 col-lg-3 col-md-12">&nbsp;</div>
 
 
                     { /* Newsletter */ }
                     <div className="col-xl-6 col-lg-6 col-md-12">
-                        <h3><i className="icon-feather-mail"></i> Sign Up For a Newsletter</h3>
-                        <p>Monthly newsletter on changes in the immigration law of different countries. Be the first to know about new programs.</p>
+                        <h3><i className="icon-feather-mail"></i> {props.newsletter.title}</h3>
+                        <p>{props.newsletter.description}</p>
                         <form action="#" method="get" className="newsletter">
-                            <input type="text" name="fname" placeholder="Enter your email address"/>
+                            <input type="text" name="fname" placeholder="Email "/>
                             <button type="submit"><i className="icon-feather-arrow-right"></i></button>
                         </form>
                     </div>

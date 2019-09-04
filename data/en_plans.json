@@ -1,0 +1,46 @@
+{
+	"title": "What is the difference?",
+	"self_application": {
+		"title": "Self Applications",
+		"desc": "You can prepare a visa application yourself, but:",
+		"list": [
+		    "🚫 English knowledge is required",
+		    "🚫 Knowledge of immigration law is required",
+		    "🚫 Preparation for oral interview is required",
+		    "🚫 No guarantee for a success"
+		]
+	},
+	"with_asta": {
+		"label": "Recommended",
+		"title": "With ASTA LA VISA",
+		"note": "*The price does not include: Consular fee, visa fees, insurance. The amounts of consular and visa fees depend on the type of visa and its validity.",
+		"price": "$100",
+		"list": [
+		    "✅ No English required",
+		    "✅ No knowledge of immigration law required",
+		    "✅ Free preparation for the oral interview",
+		    "✅ Free certified translation of all information in English",
+		    "✅ Guarantee for a success",
+		    "✅ Free consultation with professionals",
+		    "✅ We work with you under a contract",
+		    "✅ You pay through the bank"
+		],
+
+		"button": "Free Consultation Now"
+	},
+	"others": {
+		"title": "Other companies and suspicious agents",
+		"warning": "Attention, beware of fraudsters.",
+		"price": "$300+",
+		"list": [
+		    "🚫 English level unknown",
+		    "🚫 Knowledge of immigration law unknown",
+		    "🚫 Level of preparation for oral interview unknown",
+		    "🚫 The quality of document translations is unknown.",
+		    "🚫 No guarantee for a success",
+		    "🚫 No free consultation",
+		    "🚫 Work without a contract",
+		    "🚫 Payment is taken in cash or 'on a personal card'"
+		]
+	}
+}

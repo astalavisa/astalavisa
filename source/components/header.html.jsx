@@ -1,4 +1,4 @@
-export default () => {
+export default (props) => {
   return (
     <>
         <header id="header-container" className="fullwidth">
@@ -11,13 +11,16 @@ export default () => {
                         
                         { /* Logo */ }
                         <div id="logo">
-                            <a href="index.html"><img src="images/default-monochrome.svg" alt=""/></a>
+                            <a href="index.html"><img src="images/astalavisa_logo2square.svg" alt=""/></a>
                         </div>
 
                         { /* Main Navigation */ }
                         <nav id="navigation">
                             <ul id="responsive">
-                                <li><a href="#" className="current">Home</a></li>
+                                { props.topnav.map((item, index) => {
+                                    return <li key={index}><a href={item.href} className="current">{item.title}</a></li>
+                                })
+                                }
                             </ul>
                         </nav>
                         <div className="clearfix"></div>

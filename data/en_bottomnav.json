@@ -1,0 +1,22 @@
+{
+	"title": "Helpful Links",
+	"items": [
+		{
+			"title": "Contact",
+			"href": "#"
+		},
+		{
+			"title": "Log In",
+			"href": "#"
+		},
+		{
+			"title": "Privacy Policy",
+			"href": "#"
+		},
+		{
+			"title": "Terms of Use",
+			"href": "#"
+		}
+
+	]
+}

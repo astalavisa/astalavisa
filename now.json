@@ -1,1 +1,6 @@
-{"name":"astalavisa"}
+{
+	"name": "astalavisa",
+	"routes": [
+    	{ "src": "/", "dest": "public/index.html" },
+	]
+}

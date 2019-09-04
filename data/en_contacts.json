@@ -1,0 +1,17 @@
+{
+	"title": "Our offices",
+	"items": [
+		{
+			"address": "Bol'shaya Morskaya Ulitsa, 3. Sankt-Peterburg, Russia. Coworking LIDVAL SPACE",
+			"tel": "Phone +7 911 195 8305",
+			"email": "spb@astalavisa.com"
+		},
+		
+		{
+			"address": "Mustaqilliq Ave., 6, Tashkent, Uzbekistan. Coworking GROUND ZERO (Kitob Olami)",
+			"tel": "+998 90 1675221",
+			"email": "uzb@astalavisa.com"
+		}
+	]
+}
+
