@@ -1,3 +1,6 @@
+import Form from './form.html.jsx';
+
+
 export default (props) => {
     return (
         <>
@@ -54,11 +57,9 @@ export default (props) => {
                                         </ul>
                                     </div>
                                     <a
-                                        href="pages-checkout-page.html"
-                                        className="button full-width margin-top-20"
-                                    >
-                                        {props.plans.with_asta.button}
-                                    </a>
+                                        href="#small-dialog"
+                                        className="button full-width popup-with-zoom-anim"
+                                    >{props.plans.with_asta.button}<Form/></a>
                                 </div>
 
                                 {/* Plan */}

@@ -1,3 +1,3 @@
-npm run build
+npm run pre-build
 cp ./static/* ./public/ -r
-cd public && now
+now

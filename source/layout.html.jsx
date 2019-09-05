@@ -25,6 +25,15 @@ export default function Layout({ children }) {
         <script src="js/slick.min.js"></script>
         <script src="js/custom.js"></script>
 
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136068921-1"></script>
+        <script>
+          
+          gtag('js', new Date())
+
+          gtag('config', 'UA-136068921-1')
+        
+        </script>
+
       </body>
     </html>
   );

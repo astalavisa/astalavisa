@@ -16,7 +16,7 @@
             "location": ["Location", "Saint-Petersburg"],
             "rate": ["Rate", "$50/hour"],
             "spec": ["Specialization", "Australia, Canada"],
-            "url": ["Make an appointment", "#"],
+            "url": ["Make an appointment", "https://calendly.com/astalavisa-official/gz"],
             "photo": "images/polina.jpg"
         },
         {
@@ -25,7 +25,7 @@
             "location": ["Location", "Saint-Petersburg"],
             "rate": ["Rate", "Free"],
             "spec": ["Specialization", "Shengen, USA"],
-            "url": ["Make an appointment", "#"],
+            "url": ["Make an appointment", "https://calendly.com/astalavisa-official/gz"],
             "photo": "images/anastasia.jpg"
         },
         {
@@ -34,7 +34,7 @@
             "location": ["Location", "Tashkent"],
             "rate": ["Rate", "Free"],
             "spec": ["Specialization", "Australia, Canada, Shengen, USA"],
-            "url": ["Make an appointment", "#"],
+            "url": ["Make an appointment", "https://calendly.com/astalavisa-official/gz"],
             "photo": "images/anastasia.jpg"
         }        
     ]
