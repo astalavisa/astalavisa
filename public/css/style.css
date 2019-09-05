@@ -8345,13 +8345,13 @@ em.mm-counter+a.mm-fullsubopen+span {
   transition: all 0.3s;
   border-radius: 4px;
   text-align: center;
-  font-size: 26px;
+  font-size: 40px;
 }
 body #backtotop a {
   color: #fff;
 }
 #backtotop a:after {
-  content: "î¤±";
+  /*content: "î¤±";*/
   font-family: "Feather-Icons";
   position: relative;
   display: block;

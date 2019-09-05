@@ -7,7 +7,7 @@
             "location": ["Location", "Tashkent"],
             "rate": ["Rate", "$200/hour"],
             "spec": ["Specialization", "Immigration law"],
-            "url": ["Make an appointment", "#"],
+            "url": ["Make an appointment", "https://calendly.com/astalavisa-official/gz"],
             "photo": "images/ss.png"
         },
         {
@@ -29,7 +29,7 @@
             "photo": "images/anastasia.jpg"
         },
         {
-            "name": "Roxy",
+            "name": "Roxana",
             "job": "Visa Department",
             "location": ["Location", "Tashkent"],
             "rate": ["Rate", "Free"],

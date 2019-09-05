@@ -111,10 +111,10 @@ $(document).ready(function(){
 	/*----------------------------------------------------*/
 
 	// Button
-	// function backToTop() {
-	// 	$('body').append('<div id="backtotop"><a href="#"></a></div>');
-	// }
-	// backToTop();
+	function backToTop() {
+		$('body').append('<div id="backtotop"><a href="#"><i class="icon-material-outline-keyboard-arrow-up"></i></a></div>');
+	}
+	backToTop();
 
 	// Showing Button
 	var pxShow = 600; // height on which the button will show

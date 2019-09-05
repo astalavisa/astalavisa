@@ -46,7 +46,7 @@ export default (props) => {
                                                 <li>{employee.spec[0]} <strong>{employee.spec[1]}</strong></li>
                                             </ul>
                                         </div>
-                                        <a href={employee.url[1]} className="button button-sliding-icon ripple-effect">{employee.url[0]}<i className="icon-material-outline-arrow-right-alt"></i></a>
+                                        <a href={employee.url[1]} target="_blank" className="button button-sliding-icon ripple-effect">{employee.url[0]}<i className="icon-material-outline-arrow-right-alt"></i></a>
                                     </div>
                                 </div>
                                )
