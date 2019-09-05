@@ -7,6 +7,7 @@
     "build": "ls"
   },
   "devDependencies": {
-    "@static/charge": "^1.2.0"
+    "@static/charge": "^1.2.0",
+    "now": "^16.2.0"
   }
 }
