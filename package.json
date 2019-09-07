@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "charge serve source",
-    "pre-build": "charge build source public",
-    "build": "ls"
+    "build": "charge build source public && cp ./static/* ./public/ -r",
   },
   "devDependencies": {
     "@static/charge": "^1.2.0",
