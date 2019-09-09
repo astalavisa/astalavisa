@@ -3,7 +3,7 @@
     "items": [
         {
             "name": "Сергей Сафронов",
-            "job": "Директор компании",
+            "job": "Директор",
             "location": ["Офис", "Ташкент"],
             "rate": ["Стоимость консультации", "$200/час"],
             "spec": ["Специализация", "Иммиграционное законодательство"],
@@ -12,29 +12,29 @@
         },
         {
             "name": "Полина",
-            "job": "Отдел виз",
+            "job": "Визовый отдел",
             "location": ["Офис", "Санкт-Петербург"],
             "rate": ["Стоимость консультации", "$50/час"],
             "spec": ["Специализация", "Австралия, Канада"],
-            "url": ["Записаться на встречу", "https://calendly.com/astalavisa-official/gz"],
+            "url": ["Записаться на встречу", "https://calendly.com/psfadeeva/astalavisa"],
             "photo": "images/polina.jpg"
         },
         {
             "name": "Анастасия",
-            "job": "Отдел виз",
+            "job": "Визовый отдел",
             "location": ["Офис", "Санкт-Петербург"],
             "rate": ["Стоимость консультации", "Бесплатно"],
             "spec": ["Специализация", "Шенген, США"],
-            "url": ["Записаться на встречу", "https://calendly.com/astalavisa-official/gz"],
+            "url": ["Записаться на встречу", "https://calendly.com/anastasiamolchanova/astalavisa"],
             "photo": "images/anastasia.jpg"
         },
         {
             "name": "Роксана",
-            "job": "Отдел виз",
+            "job": "Визовый отдел",
             "location": ["Офис", "Ташкент"],
             "rate": ["Стоимость консультации", "Бесплатно"],
             "spec": ["Специализация", "Австралия, Канада, Шенген, США"],
-            "url": ["Записаться на встречу", "https://calendly.com/astalavisa-official/gz"],
+            "url": ["Записаться на встречу", "https://calendly.com/roksiniazova/astalavisa"],
             "photo": "images/roxy.jpg"
         }        
     ]
