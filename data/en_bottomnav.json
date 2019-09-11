@@ -6,8 +6,8 @@
 			"href": "#"
 		},
 		{
-			"title": "Log In",
-			"href": "#"
+			"title": "Log In for Agents",
+			"href": "https://askamoastalavisacom.amocrm.ru/"
 		},
 		{
 			"title": "Privacy Policy",
@@ -16,6 +16,14 @@
 		{
 			"title": "Terms of Use",
 			"href": "#"
+		}
+		{
+			"title": "Atlantic Immigration Pilot (Canada)",
+			"href": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/atlantic-immigration-pilot.html"
+		}
+		{
+			"title": "Designated Area Migration Agreements (Australia)",
+			"href": "https://migration.sa.gov.au/local-employers/designated-area-migration-agreements"
 		}
 
 	]
