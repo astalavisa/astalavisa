@@ -6,7 +6,7 @@ export default function Layout({ children }) {
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
         <link rel="stylesheet" type="text/css" href="css/colors/blue.css"/>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
+        
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136068921-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
