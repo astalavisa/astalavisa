@@ -2,10 +2,20 @@ export default function Layout({ children }) {
   return (
     <html>
       <head>
-        <title>Asta la VISA :: VISA with professional Registered Migration Agents</title>
+        <title>ASTALAVISA :: VISA with professional Migration Agents</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
         <link rel="stylesheet" type="text/css" href="css/colors/blue.css"/>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136068921-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-136068921-1');
+</script>
+
       </head>
       <body>
         <div id="wrapper">
