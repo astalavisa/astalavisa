@@ -7,7 +7,6 @@ export default function Layout({ children }) {
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
         <link rel="stylesheet" type="text/css" href="css/colors/blue.css"/>
         
-<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136068921-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
