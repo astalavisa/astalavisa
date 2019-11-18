@@ -17,7 +17,15 @@ export default () => {
                         <div>
                             <iframe width="100%" height="315" src="https://www.youtube.com/embed/0pGdqVU8jcs" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         </div>
-                    </div>
+                        <div>
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/C7_sSnLfwVY" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                        </div>
+                        <div>
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/KCaZ3TQKq5A" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                        </div>
+
+                      
+                  </div>
 
                 </div>
             </div>
