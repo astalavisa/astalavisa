@@ -28,14 +28,6 @@
             "url": ["Make an appointment", "https://calendly.com/anastasiamolchanova/astalavisa"],
             "photo": "images/anastasia.jpg"
         },
-        {
-            "name": "Roxana",
-            "job": "Visa Department",
-            "location": ["Location", "Tashkent"],
-            "rate": ["Rate", "Free"],
-            "spec": ["Specialization", "Australia, Canada, Shengen, USA"],
-            "url": ["Make an appointment", "https://calendly.com/roksiniazova/astalavisa"],
-            "photo": "images/roxy.jpg"
-        }        
+       
     ]
 }
