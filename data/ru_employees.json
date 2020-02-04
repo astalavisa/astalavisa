@@ -20,15 +20,7 @@
             "url": ["Записаться на встречу", "https://calendly.com/anastasiamolchanova/astalavisa"],
             "photo": "images/anastasia.jpg"
         },
-        {
-            "name": "Роксана",
-            "job": "Визовый отдел",
-            "location": ["Офис", "Ташкент"],
-            "rate": ["Стоимость консультации", "Бесплатно"],
-            "spec": ["Специализация", "Австралия, Канада, Шенген, США"],
-            "url": ["Записаться на встречу", "https://calendly.com/roksiniazova/astalavisa"],
-            "photo": "images/roxy.jpg"
-        },
+      
         {
             "name": "Сергей Сафронов",
             "job": "Директор",
