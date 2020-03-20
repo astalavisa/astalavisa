@@ -19,12 +19,12 @@ export default (props) => {
                         </div>
                     </div>
                 </div>
-                
+
                 { /* Search Bar */ }
                 <div>
                 { /* Button */ }
             <div className="intro-search-button">
-                <Form/>
+                <Form lang={props.banner.lang}/>
                 { /* <button className="button ripple-effect" onclick="window.location.href='jobs-list-layout-full-page-map.html'">START HERE</button> */ }
                 <a className="popup-with-zoom-anim button ripple-effect" href="#small-dialog" >{props.banner.button}</a>
             </div>
