@@ -1,6 +1,6 @@
 export default (props) => {
 
-  if (props.lang === 'lang') {
+  if (props.lang === 'en') {
     return (
       <>
           <div id="small-dialog" className="zoom-anim-dialog mfp-hide">
